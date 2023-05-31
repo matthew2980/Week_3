@@ -221,3 +221,33 @@ buildingType_select.addEventListener("change", function () {
         });
     }
 });
+
+// const quot
+const header4 = document.getElementById('header-4')
+const header3 = document.getElementById('header-3')
+const header2 = document.getElementById('header-2')
+const header1 = document.getElementById('header-1')
+
+// header1.style.backgroundColor= '#ADD8E6'
+
+buildingType_select.addEventListener('change', () => {
+
+    if (buildingType == 'residential'){
+        header1.style.backgroundColor ='#a00c0a'
+        header2.style.backgroundColor ='#a00c0a'
+        header3.style.backgroundColor ='#a00c0a'
+        header4.style.backgroundColor ='#a00c0a'
+    }
+    if (buildingType == 'commercial') {
+        header1.style.backgroundColor ='#0a65a0'
+        header2.style.backgroundColor ='#0a65a0'
+        header3.style.backgroundColor ='#0a65a0'
+        header4.style.backgroundColor ='#0a65a0'
+    }
+    if (buildingType == 'industrial') {
+        header1.style.backgroundColor ='#848080'
+        header2.style.backgroundColor ='#848080'
+        header3.style.backgroundColor ='#848080'
+        header4.style.backgroundColor ='#848080'
+    }
+})

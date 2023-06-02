@@ -251,3 +251,4 @@ buildingType_select.addEventListener('change', () => {
         header4.style.backgroundColor ='#848080'
     }
 })
+

@@ -24,7 +24,7 @@ fetch("http://99.79.77.144:3000/api/agents")
       </tr>`;
     });
 
-
+    
     
     // 4. DOM Display result
     document.getElementById("users").innerHTML = li;
